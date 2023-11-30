@@ -9,7 +9,7 @@ body{
     margin-bottom: 200px;
     font-size: 120%;
     box-sizing: border-box;
-    min-width: 350px;
+    min-width: 300px;
     background-color: #EEEEEE;
 }
 
@@ -104,14 +104,10 @@ li{
     }
     body{
         font-size: 140%;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     h1{
-        font-size: 200%;
+        font-size: 230%;
     }
-}
-@media (max-width: 400px){
-    body{
-        font-size: 180%;
-    }
-    
 }
