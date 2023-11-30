@@ -8,7 +8,9 @@ body{
     margin: 0 300px;
     margin-bottom: 200px;
     font-size: 120%;
+    box-sizing: border-box;
     min-width: 350px;
+    background-color: #EEEEEE;
 }
 
 section{
@@ -103,9 +105,13 @@ li{
     body{
         font-size: 140%;
     }
+    h1{
+        font-size: 200%;
+    }
 }
 @media (max-width: 400px){
     body{
-        font-size: 150%;
+        font-size: 180%;
     }
+    
 }
