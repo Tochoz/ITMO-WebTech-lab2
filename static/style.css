@@ -1,0 +1,111 @@
+@font-face {
+    font-family: MyFont;
+    src: url(Bahnschrift.ttf);
+}
+
+body{
+    font-family: MyFont;
+    margin: 0 300px;
+    margin-bottom: 200px;
+    font-size: 120%;
+    min-width: 350px;
+}
+
+section{
+    margin: 50px 0;
+}
+
+p.subtitle-1{
+    font-size: 130%;
+}
+
+.no-decoration{
+    color: inherit;
+    text-decoration: none;
+}
+table{
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    border-width: 8px;
+}
+tbody{
+    display: block;
+
+}
+
+th,td{
+    border: 1px solid;
+}
+td{
+    padding: 5px 15px;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+td:first-child{
+    text-align: left;
+    vertical-align: middle;
+}
+th{
+    padding: .8em 0;
+}
+
+tbody{
+    overflow-x:auto;
+}
+
+ol{
+    padding-left: 15px;
+}
+ul{
+    padding-left: 30px;
+}
+
+a{
+/*    text-decoration: none;*/
+    color: #025266;
+}
+h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: .5em;
+    margin-top: 1.5em;
+}
+h3{
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+li{
+    margin-top: 0.8em;
+}
+
+@media (max-width: 1500px){
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 1100px){
+    body{
+        font-size: 130%;
+    }
+    table{
+        font-size: 80%;
+    }
+}
+@media (max-width: 585px){
+    h1,h2{
+        text-align: center;
+    }
+    body{
+        font-size: 140%;
+    }
+}
+@media (max-width: 400px){
+    body{
+        font-size: 150%;
+    }
+}
